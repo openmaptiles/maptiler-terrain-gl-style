@@ -9,13 +9,13 @@ as well as the contour lines and hillshading from [openmaptiles.com](https://ope
 
 **[:globe_with_meridians: Browse the map](https://openmaptiles.github.io/klokantech-terrain-gl-style)**
 
-<img src="http://demo.tileserver.org/styles/klokantech-terrain/static/8.540587,47.370555,15.08/600x400@2x.png" width="600" title="Klokantech Basic Preview Zurich">
+<img src="http://demo.tileserver.org/styles/klokantech-terrain/static/8.540587,47.370555,15.08/600x400@2x.png" width="600" title="Klokantech Terrain Preview Zurich">
 
-<img src="http://demo.tileserver.org/styles/klokantech-terrain/static/8.619184,47.336203,10.07/600x400@2x.png" width="600" title="Klokantech Basic Preview Lake Zurich">
+<img src="http://demo.tileserver.org/styles/klokantech-terrain/static/8.619184,47.336203,10.07/600x400@2x.png" width="600" title="Klokantech Terrain Preview Lake Zurich">
 
-<img src="http://demo.tileserver.org/styles/klokantech-terrain/static/8.243967,46.916315,7.21/600x400@2x.png" width="600" title="Klokantech Basic Preview Switzerland">
+<img src="http://demo.tileserver.org/styles/klokantech-terrain/static/8.243967,46.916315,7.21/600x400@2x.png" width="600" title="Klokantech Terrain Preview Switzerland">
 
-<img src="http://demo.tileserver.org/styles/klokantech-terrain/static/10.987258,46.453150,4.02/600x400@2x.png" width="600" title="Klokantech Basic Preview Europe">
+<img src="http://demo.tileserver.org/styles/klokantech-terrain/static/10.987258,46.453150,4.02/600x400@2x.png" width="600" title="Klokantech Terrain Preview Europe">
 
 ## Edit the Style
 
