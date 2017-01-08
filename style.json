@@ -23,11 +23,11 @@
     },
     "hillshading": {
       "type": "raster",
-      "url": "http://klokantech.tilehosting.com/data/hillshades.json?key=tXme5cuqgrCqdPoZHqyn"
+      "url": "https://klokantech.tilehosting.com/data/hillshades.json?key=tXme5cuqgrCqdPoZHqyn"
     },
     "contours": {
       "type": "vector",
-      "url": "http://klokantech.tilehosting.com/data/contours.json?key=tXme5cuqgrCqdPoZHqyn"
+      "url": "https://klokantech.tilehosting.com/data/contours.json?key=tXme5cuqgrCqdPoZHqyn"
     }
   },
   "glyphs": "https://demo.tileserver.org/fonts/{fontstack}/{range}.pbf",
