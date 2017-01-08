@@ -23,7 +23,7 @@
     },
     "hillshading": {
       "type": "raster",
-      "url": "http://klokantech.tilehosting.com/data/contours.json?key=tXme5cuqgrCqdPoZHqyn"
+      "url": "http://klokantech.tilehosting.com/data/hillshades.json?key=tXme5cuqgrCqdPoZHqyn"
     }
   },
   "glyphs": "https://demo.tileserver.org/fonts/{fontstack}/{range}.pbf",
@@ -77,16 +77,6 @@
       }
     },
     {
-      "id": "park",
-      "type": "fill",
-      "source": "openmaptiles",
-      "source-layer": "park",
-      "paint": {
-        "fill-color": "rgba(192, 216, 151, 0.53)",
-        "fill-opacity": 1
-      }
-    },
-    {
       "id": "landcover_wood",
       "type": "fill",
       "source": "openmaptiles",
@@ -111,6 +101,16 @@
             ]
           ]
         }
+      }
+    },
+    {
+      "id": "park",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "park",
+      "paint": {
+        "fill-color": "rgba(192, 216, 151, 0.53)",
+        "fill-opacity": 1
       }
     },
     {
@@ -173,6 +173,19 @@
             ]
           ]
         }
+      }
+    },
+    {
+      "id": "hillshading",
+      "type": "raster",
+      "source": "hillshading",
+      "paint": {
+        "raster-opacity": 0.4,
+        "raster-fade-duration": 300,
+        "raster-contrast": 0
+      },
+      "layout": {
+        "visibility": "visible"
       }
     },
     {
