@@ -337,8 +337,8 @@
         "text-rotation-alignment": "map",
         "text-field": "{height} m",
         "text-font": [
-          "KlokanTech Noto Sans Regular",
-          "KlokanTech Noto Sans CJK Regular"
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
         ]
       },
       "paint": {
