@@ -118,20 +118,6 @@
       }
     },
     {
-      "id": "water",
-      "type": "fill",
-      "source": "openmaptiles",
-      "source-layer": "water",
-      "filter": [
-        "==",
-        "$type",
-        "Polygon"
-      ],
-      "paint": {
-        "fill-color": "hsl(205, 56%, 73%)"
-      }
-    },
-    {
       "id": "landcover-ice-shelf",
       "type": "fill",
       "source": "openmaptiles",
@@ -267,34 +253,6 @@
       }
     },
     {
-      "id": "waterway",
-      "type": "line",
-      "source": "openmaptiles",
-      "source-layer": "waterway",
-      "filter": [
-        "==",
-        "$type",
-        "LineString"
-      ],
-      "paint": {
-        "line-color": "hsl(205, 56%, 73%)",
-        "line-width": {
-          "base": 1.4,
-          "stops": [
-            [
-              8,
-              1
-            ],
-            [
-              20,
-              8
-            ]
-          ]
-        },
-        "line-opacity": 1
-      }
-    },
-    {
       "id": "contour_label",
       "type": "symbol",
       "metadata": {},
@@ -403,6 +361,48 @@
         "line-color": "hsl(0, 1%, 58%)",
         "line-opacity": 0.3,
         "line-width": 0.6
+      }
+    },
+    {
+      "id": "water",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "water",
+      "filter": [
+        "==",
+        "$type",
+        "Polygon"
+      ],
+      "paint": {
+        "fill-color": "hsl(205, 56%, 73%)"
+      }
+    },
+    {
+      "id": "waterway",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "waterway",
+      "filter": [
+        "==",
+        "$type",
+        "LineString"
+      ],
+      "paint": {
+        "line-color": "hsl(205, 56%, 73%)",
+        "line-width": {
+          "base": 1.4,
+          "stops": [
+            [
+              8,
+              1
+            ],
+            [
+              20,
+              8
+            ]
+          ]
+        },
+        "line-opacity": 1
       }
     },
     {
