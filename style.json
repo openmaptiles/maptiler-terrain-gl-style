@@ -169,6 +169,9 @@
       "id": "hillshading",
       "type": "raster",
       "source": "hillshading",
+      "layout": {
+        "visibility": "visible"
+      },
       "paint": {
         "raster-opacity": {
           "base": 0.5,
@@ -189,9 +192,6 @@
         },
         "raster-fade-duration": 300,
         "raster-contrast": 0
-      },
-      "layout": {
-        "visibility": "visible"
       }
     },
     {
