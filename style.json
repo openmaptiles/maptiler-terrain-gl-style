@@ -30,7 +30,7 @@
       "url": "https://klokantech.tilehosting.com/data/contours.json?key=tXme5cuqgrCqdPoZHqyn"
     }
   },
-  "glyphs": "https://demo.tileserver.org/fonts/{fontstack}/{range}.pbf",
+  "glyphs": "https://free.tilehosting.com/fonts/{fontstack}/{range}.pbf?key=tXiQqN3lIgskyDErJCeY",
   "layers": [
     {
       "id": "background",
