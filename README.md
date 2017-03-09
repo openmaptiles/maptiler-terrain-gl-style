@@ -2,8 +2,7 @@
 [![Build Status](https://travis-ci.org/openmaptiles/klokantech-terrain-gl-style.svg?branch=master)](https://travis-ci.org/openmaptiles/klokantech-terrain-gl-style)
 
 A Mapbox GL basemap style it is using the vector tile
-schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles) as well as
-as well as the contour lines and hillshading from [openmaptiles.com](https://openmaptiles.com).
+schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles) as well as the contour lines and hillshading from [openmaptiles.com](https://openmaptiles.com).
 
 ## Preview
 
