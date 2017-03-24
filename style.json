@@ -1162,6 +1162,49 @@
       }
     },
     {
+      "id": "mountain_peak",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "mountain_peak",
+      "minzoom": 7,
+      "maxzoom": 24,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "==",
+          "rank",
+          1
+        ]
+      ],
+      "layout": {
+        "text-size": 11,
+        "text-font": [
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
+        ],
+        "visibility": "visible",
+        "text-offset": [
+          0,
+          0.5
+        ],
+        "icon-size": 1,
+        "text-anchor": "bottom",
+        "text-field": "{name}\n{ele} m\n▲",
+        "text-max-width": 8
+      },
+      "paint": {
+        "text-color": "rgba(51, 51, 51, 1)",
+        "text-halo-width": 1,
+        "text-halo-color": "rgba(255,255,255,1)",
+        "text-halo-blur": 1
+      }
+    },
+    {
       "id": "place_label_other",
       "type": "symbol",
       "source": "openmaptiles",
