@@ -1167,7 +1167,6 @@
       "source": "openmaptiles",
       "source-layer": "mountain_peak",
       "minzoom": 7,
-      "maxzoom": 24,
       "filter": [
         "all",
         [
