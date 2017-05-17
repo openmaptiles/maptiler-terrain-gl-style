@@ -23,7 +23,8 @@
     },
     "hillshading": {
       "type": "raster",
-      "url": "https://klokantech.tilehosting.com/data/hillshades.json?key=tXme5cuqgrCqdPoZHqyn"
+      "url": "https://klokantech.tilehosting.com/data/hillshades.json?key=tXme5cuqgrCqdPoZHqyn",
+      "tileSize": 256
     },
     "contours": {
       "type": "vector",
