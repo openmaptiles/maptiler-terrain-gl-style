@@ -1172,7 +1172,7 @@
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "poi",
-      "minzoom": 5,
+      "minzoom": 14,
       "filter": [
         "all",
         [
