@@ -1340,7 +1340,10 @@
           [
             "!=",
             "class",
-            "city"
+            "city",
+            "state",
+            "country",
+            "continent"
           ]
         ]
       ],
