@@ -1196,7 +1196,7 @@
         ],
         "icon-size": 1,
         "text-anchor": "top",
-        "text-field": "{name}",
+        "text-field": "{name:latin}\n{name:nonlatin}",
         "text-max-width": 8
       },
       "paint": {
@@ -1232,7 +1232,7 @@
         ],
         "icon-size": 1,
         "text-anchor": "top",
-        "text-field": "{name}",
+        "text-field": "{name:latin}\n{name:nonlatin}",
         "text-max-width": 8
       },
       "paint": {
@@ -1254,7 +1254,7 @@
       ],
       "layout": {
         "symbol-placement": "line",
-        "text-field": "{name}",
+        "text-field": "{name:latin} {name:nonlatin}",
         "text-font": [
           "Noto Sans Regular"
         ],
@@ -1345,7 +1345,7 @@
         ]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}\n{name:nonlatin}",
         "text-font": [
           "Noto Sans Regular"
         ],
@@ -1392,7 +1392,7 @@
         ]
       ],
       "layout": {
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}\n{name:nonlatin}",
         "text-font": [
           "Noto Sans Regular"
         ],
@@ -1441,7 +1441,7 @@
         ]
       ],
       "layout": {
-        "text-field": "{name}",
+        "text-field": "{name:latin}",
         "text-font": [
           "Noto Sans Regular"
         ],
@@ -1491,7 +1491,7 @@
         ]
       ],
       "layout": {
-        "text-field": "{name}",
+        "text-field": "{name:latin}",
         "text-font": [
           "Noto Sans Bold"
         ],
