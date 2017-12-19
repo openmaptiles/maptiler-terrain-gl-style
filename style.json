@@ -1309,7 +1309,7 @@
         ],
         "icon-size": 1,
         "text-anchor": "bottom",
-        "text-field": "{name}\n{ele} m\n▲",
+        "text-field": "{name:latin} {name:nonlatin}\n{ele} m\n▲",
         "text-max-width": 8
       },
       "paint": {
