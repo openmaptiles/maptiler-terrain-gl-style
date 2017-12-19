@@ -259,7 +259,6 @@
       "metadata": {},
       "source": "contours",
       "source-layer": "contour",
-      "interactive": true,
       "filter": [
         "all",
         [
@@ -315,7 +314,6 @@
       "type": "line",
       "source": "contours",
       "source-layer": "contour",
-      "interactive": true,
       "filter": [
         "all",
         [
@@ -344,7 +342,6 @@
       "type": "line",
       "source": "contours",
       "source-layer": "contour",
-      "interactive": true,
       "filter": [
         "all",
         [
@@ -1338,7 +1335,7 @@
         [
           "all",
           [
-            "!=",
+            "!in",
             "class",
             "city",
             "state",
