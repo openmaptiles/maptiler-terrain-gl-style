@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "name": "Klokantech Terrain",
+  "name": "MapTiler Terrain",
   "metadata": {
     "mapbox:autocomposite": false,
     "mapbox:type": "template",
@@ -16,16 +16,16 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3/tiles.json?key={key}"
+      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key={key}"
     },
     "hillshading": {
       "type": "raster",
-      "url": "https://klokantech.tilehosting.com/data/hillshades.json?key=tXme5cuqgrCqdPoZHqyn",
+      "url": "https://api.maptiler.com/tiles/hillshade/tiles.json?key={key}",
       "tileSize": 256
     },
     "contours": {
       "type": "vector",
-      "url": "https://klokantech.tilehosting.com/data/contours.json?key=tXme5cuqgrCqdPoZHqyn"
+      "url": "https://api.maptiler.com/tiles/contours/tiles.json?key={key}"
     }
   },
   "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={key}",
@@ -853,5 +853,5 @@
       }
     }
   ],
-  "id": "klokantech-terrain"
+  "id": "maptiler-terrain"
 }
