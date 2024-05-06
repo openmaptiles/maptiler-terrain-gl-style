@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "name": "Klokantech Terrain",
+  "name": "MapTiler Terrain",
   "metadata": {
     "mapbox:autocomposite": false,
     "mapbox:type": "template",
@@ -23,12 +23,12 @@
     },
     "hillshading": {
       "type": "raster",
-      "url": "https://klokantech.tilehosting.com/data/hillshades.json?key=tXme5cuqgrCqdPoZHqyn",
+      "url": "mbtiles://{hillshading}",
       "tileSize": 256
     },
     "contours": {
       "type": "vector",
-      "url": "https://klokantech.tilehosting.com/data/contours.json?key=tXme5cuqgrCqdPoZHqyn"
+      "url": "mbtiles://{contours}"
     }
   },
   "glyphs": "{fontstack}/{range}.pbf",
@@ -1884,5 +1884,6 @@
         "text-halo-width": 2
       }
     }
-  ]
+  ],
+  "id": "maptiler-terrain"
 }
